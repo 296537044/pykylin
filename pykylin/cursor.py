@@ -81,7 +81,7 @@ class Cursor(object):
             tpe = column[1]
             val = result[i]
             if val is None:  # handle null return; 应对返回空值的情况
-                pass
+                continue
             if tpe == 'DATE':
                 val = parser.parse(val)
             elif tpe == 'BIGINT' or tpe == 'INT' or tpe == 'TINYINT':
