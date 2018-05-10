@@ -31,6 +31,11 @@ $ pip install -r ./requirements.txt
 $ python setup.py install
 ```
 
+or 
+```
+pip install git+https://github.com/296537044/pykylin
+```
+
 More info
 ---------
 
@@ -42,3 +47,4 @@ Authors
 -------
 
  * Wu Xiang
+ * Zone杨
