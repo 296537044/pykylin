@@ -33,7 +33,7 @@ $ python setup.py install
 
 or 
 ```
-pip install git+https://github.com/296537044/pykylin
+pip install git+https://github.com/zoneyang/pykylin
 ```
 
 More info
